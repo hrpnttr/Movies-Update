@@ -7,20 +7,21 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 
-    <title>1718130 - Movie</title>
+    <title>Movies Update</title>
   </head>
-  <body>
+  <body  onload="Movie()">
     
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <a class="navbar-brand" href="#">1718130 - Movie</a>
+        <a class="navbar-brand" href="#" id="home-button">Movies Update</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link" href="#">Home</a>
-            <a class="nav-item nav-link active" href="#">Search Movie</a>
+            <!-- <button class="btn btn-dark" id="home-button">Search</button> -->
+            <!-- <a class="nav-item nav-link active" href="#" id="home-button">Home</a> -->
+            <!-- <a class="nav-item nav-link active" href="#">Search Movie</a> -->
           </div>
         </div>
       </div>
@@ -33,6 +34,7 @@
           <h1 class="text-center">Search Movie</h1>
           <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Movie title.." id="search-input">
+            <input type="hidden" class="form-control" value="marvel" id="home-input">
             <div class="input-group-append">
               <button class="btn btn-dark" type="button" id="search-button">Search</button>
             </div>
@@ -76,5 +78,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
     <script src="js/script.js"></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
